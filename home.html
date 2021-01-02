@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Home Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <!--Link Bee Logo to Landing Page-->
+        <a href="landing.html">
+            <img src="images/bee.png" alt="bee image" id="beeImg">
+            </a>
+            <!--Link Build Early Ed Title Text to Landing Page-->        
+            <a class="navbar-brand m-2" href="landing.html">Build Early Ed</a>
+        <!--Format Navbar Toggler for Pages-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        <!--End Format Navbar Toggler for Pages-->
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mt-2 mt-md-0 ml-auto">
+                <li class="nav-item">
+                    <!--Link Home in Navbar to Home Page-->
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <!--Link Enroll in Navbar to Enroll Page-->
+                    <a class="nav-link" href="enroll.html">Enroll</a>
+                </li>
+                <li class="nav-item">
+                    <!--Link Build in Navbar to Build Page-->
+                    <a class="nav-link" href="build.html">Build</a>
+                </li>
+                <li class="nav-item">
+                    <!--Link Earn in Navbar to Earn Page-->
+                    <a class="nav-link" href="earn.html">Earn</a>
+                </li>
+                <li class="nav-item">
+                    <!--Link Map in Navbar to Map Page-->
+                    <a class="nav-link" href="mapPage.html">Map</a>
+                </li>
+                <li class="nav-item">
+                    <!--Link About in Navbar to About Page-->
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+
+    <!--End Navbar-->
+
+
+    <!--Home Page Text-->
+    <section>
+        <div class="container my-3 py-3">
+            <H3>Head Start Programs</H3>
+            <p>Head Start is a federally funded early childhood education program providing wrap-around
+                support services to children and families. If you are currently pregnant or have children
+                from birth to age 5, learn more about the services offered below.</p>
+        </div>
+    </section>
+    <!--End Home Page Text-->
+
+     <!--Home Page Cards-->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <!--Formatting Pink Prenatal Support Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3 justify-content-center" id="pink">
+                    <div class="row justify-content-center">
+                        <!--Insert Baby Carriage Icon-->
+                    <i class="fas fa-baby-carriage" style="font-size: 10rem;"></i>
+                </div>
+                    <!--Insert Pink Prenatal Support Card Text-->
+                    <h5 class="card-title row justify-content-center">
+                        Prenatal Support
+                    </h5>
+                    <p class="card-text">
+                        Early Head Start
+                        programs offer
+                        prenatal services
+                        and follow-up.</p>
+                </div>
+                <!--End Pink Prenatal Support Card Text-->
+
+                <!--Formatting Yellow Early Learning and Development Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="yellow">
+                    <div class="row justify-content-center">
+                        <!--Insert Graduation Cap Icon-->
+                     <i class="fas fa-graduation-cap" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Yellow Early Learning and Development Card Text-->
+                    <h5 class="card-title row justify-content-center">Early Learning and Development</h5>
+                    <p>Head Start fosters
+                        school readiness
+                        and social emotional
+                        well-being to support
+                        a smooth transition
+                        to kindergarten.</p>
+                </div>
+            </div> 
+            <!--End Yellow Early Learning and Development Card Text-->
+
+            <!--Formatting Blue Health and Wellness Card-->
+            <div class="row justify-content-center">   
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3 " id="blue">
+                    <div class="row justify-content-center">
+                    <!--Insert Health Icon-->
+                     <i class="fas fa-plus-square" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Pink Health and Wellness Card Text-->
+                    <h5 class="card-title row justify-content-center">Health and Wellness</h5>
+                    <p>Head Start provides
+                        health screenings,
+                        nutritious meals, and
+                        connects families to
+                        medical, dental, and
+                        mental health services.</p>
+                </div>
+                <!--End Pink Health and Wellness Card Text-->
+
+                <!--Formatting Purple Family Wellbeing Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="purple">
+                    <div class="row justify-content-center">
+                    <!--Insert Home Icon-->
+                    <i class="fas fa-home" id="house" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Purple Family Wellbeing Card Text-->
+                    <h5 class="card-title row justify-content-center">Family Wellbeing</h5>
+                    <p>Parents and families
+                        are offered services
+                        to achieve housing
+                        stability, continued
+                        education, and
+                        financial security.</p>
+                </div>
+                <!--End Purple Family Wellbeing Card Text-->
+            </div>
+        </div>
+    </section>
+    <!--End Home Page Cards-->
+
+    <!--Head Start Center Locator-->
+    <div class="row justify-content-center">
+        <iframe frameborder="0" height="235" scrolling="no" src="https://eclkc.ohs.acf.hhs.gov/center-locator/embedded" title="Head Start Locator" width="335">Your browser does not support iframes. Please, copy and paste the following link: <a href="https://eclkc.ohs.acf.hhs.gov/center-locator/embedded">https://eclkc.ohs.acf.hhs.gov/center-locator/embedded</a></iframe>
+    </div>
+    <!--End Head Start Center Locator-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--Format Footer-->
+        <div class="container d-flex flex-wrap align-items-center justify-content-center">
+            <span class="text-white">
+                <!--Insert Footer Icons and Text + Link Icons and Text to Appropriate Pages-->
+                <a href="home.html"> Home</a> | <i class="far fa-envelope"></i> buildearlyed@gmail.com | <a href="https://www.facebook.com/NMBuildEarlyEd/" class="fab fa-facebook"></a> <a href="https://twitter.com/buildearlyed" class="fab fa-twitter"></a> <a href="https://www.instagram.com/buildearlyed/" class="fab fa-instagram"></a> | ©Copyright 2020 Build
+                Early Ed | <a href="privacy.html"> Privacy </a></span>
+        </div>
+    </footer>
+    <!--End Footer-->
+    
+
+
+
+
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script> <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+            <!--fontawesome cdn-->
+    <script src="https://kit.fontawesome.com/9e7b3151e7.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>

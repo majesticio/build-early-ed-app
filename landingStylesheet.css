@@ -1,0 +1,94 @@
+/*
+*
+THIS IS EXCLUSIVELY FOR THE LANDING PAGE
+*
+*/
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+
+/* bee logo for the landing page */
+#beeImgLanding {
+    width: 15em;
+    margin: 3em;
+    margin-top: 2em;
+}
+
+/* navbar bg color, text color and padding for landing page */
+nav.navbar.navbar-expand-lg.navbar-dark.bg-light {
+    padding-bottom: 5em;
+    background-color: #84d0ce !important;
+    font-size: 15;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+
+/*navbar brand fontsize*/
+.navbar-dark .navbar-brand{
+    font-size: 3rem;
+}
+
+/* navbar link items fontsize*/
+ul.navbar-nav.mt-2.mt-md-0.ml-auto {
+    font-size: 1.5rem;
+}
+
+/*text color for text in the navbar, excludes the Build early ed part*/
+/* also added the text on the cards*/
+.navbar-dark .navbar-nav .nav-link, h3, h1 {
+    color: #f8f7f7;
+}
+
+/*added negative matgin to card deck to overlap them over the blue of the navbar*/
+#quickCards {
+    margin-top: -5em;
+}
+
+/*color of the three main cards*/
+#enrollCard {
+    background-color: #f75c6a !important;
+    border-radius: 55px;
+}
+
+#buildCard {
+    background-color: #F7C321 !important;
+    border-radius: 55px;
+}
+#earnCard {
+    background-color: #947fa0 !important;
+    border-radius: 55px;
+}
+ .card > a  {
+display: flex;
+justify-content: center; 
+}
+
+.footer {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    /* height: 8vh; */
+    width: 100%;
+    background-color: #84d0ce;
+    color: white;
+    text-align: center;
+  }
+
+  #noBorder {
+      border: 0;
+  }
+
+  /* the two following makes sure that the links stay white and the underline is also white 
+  so they appear to just be normal text*/
+  footer > div > span > a {
+  color: #f8f9fa !important;
+  }
+
+  #quickCards > div > div > div > a {
+     color: #f8f9fa !important;
+  }
+
+
+
+  body > nav > div.container.flex-column > a {
+      padding-left: -500px;
+  }

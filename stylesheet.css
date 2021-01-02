@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Open+Sans:wght@600&display=swap');
+
+/* bee logo for all other pages */
+#beeImg {
+    width: 8em;
+}
+
+body > nav > a {
+    font-family: 'Nanum Gothic', sans-serif;
+  }
+
+a {
+    color:white
+}
+
+/* navbar bg color, text color and padding */
+nav.navbar.navbar-expand-lg.navbar-dark.bg-light {
+    padding-bottom: 5em;
+    background-color: #84d0ce !important;
+    font-size: 15;
+}
+
+/*navbar brand fontsize*/
+.navbar-light .navbar-brand{
+    font-size: 2rem;
+}
+
+#pink {
+    background-color: #f75c6a;
+}
+
+#yellow {
+    background-color: #F7C321;
+}
+
+#purple {
+    background-color: #947fa0;
+}
+#blue {
+    background-color: #84d0ce;
+}
+.card-img-top .img-fluid {
+    width: 100%;
+    height: 15vw !important;
+    object-fit: cover;
+}
+#pink > img {
+    width: auto;
+    height: 15vw;
+    object-fit: cover;
+}
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #84d0ce;
+    color: white;
+    text-align: center;
+  }
+
+
+    #needsToBeFixed {
+        position: fixed;
+    }
+
+   #map {
+       width:75vw;
+       height:60vh;
+   }
+
+
+/*About Me hover effects on images*/
+
+   .box5{background:#444;position:relative}
+.box5:after,.box5:before{width:50px;height:50px;border-radius:50%;background:#10a5b8;position:absolute;top:-80px;left:15px;opacity:0;z-index:1;transition:all .35s ease}
+.box5:after{top:auto;left:auto;bottom:-80px;right:15px}
+.box5:hover:after,.box5:hover:before{opacity:.75;transform:scale(8);transition-delay:.15s}
+.box5 img{width:100%;height:auto;transition:all .35s ease-out 0s}
+.box5:hover img{opacity:.4}
+.box5 .icon{margin:0;position:absolute;bottom:15px;right:15px;z-index:2;transform:scale(0);transition:all .35s ease-out}
+.box5:hover .icon{transform:scale(1);transition-delay:.15s}
+.box5 .icon li a{display:block;width:35px;height:35px;line-height:35px;background:#fff;font-size:18px;color:#444;margin-right:10px;position:relative;transition:all .5s ease 0s}
+.box5 .icon li a:hover{background:#444;color:#fff}
+.box5 .box-content{padding:20px 15px;position:absolute;top:0;left:0;z-index:1}
+.box5 .title{font-size:20px;font-weight:800;color:#fff;margin:0 0 5px;opacity:0;transform:translate(-20px,-20px);transition:all .35s ease-out}
+.box5:hover .title{opacity:1;transform:translate(0,0);transition-delay:.15s}
+.box5 .post{display:inline-block;font-size:16px;color:#fff;opacity:0;transform:translate(-20px,-20px);transition:all .35s ease-out}
+.box5:hover .post{opacity:1;transform:translate(0,0);transition-delay:.15s}
+.box6 .title,.box6 img,.box6:after{transition:all .35s ease 0s}
+@media only screen and (max-width:990px){.box5{margin-bottom:30px}
+}
+
+/*Log In Styling*/
+
+.box {
+    width: 500px;
+    margin: 200px 0;
+}
+
+.shape1{
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    float: left;
+    margin-right: -50px;
+}
+.shape2 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+}
+.shape3 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    margin-top: -30px;
+    float: left;
+    margin-left: -31px;
+}
+.shape4 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    margin-top: -25px;
+    float: left;
+    margin-left: -32px;
+}
+.shape5 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    float: left;
+    margin-right: -48px;
+    margin-left: -32px;
+    margin-top: -30px;
+}
+.shape6 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -35px;
+}
+.shape7 {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background-color: #f75c6a;
+    border-radius: 80px;
+    float: left;
+    margin-right: -20px;
+    margin-top: -57px;
+}
+.float {
+    position: absolute;
+    z-index: 2;
+}
+
+.form {
+    margin-left: 145px;
+}

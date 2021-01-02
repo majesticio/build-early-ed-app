@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <title>Enroll Page</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <!-- CSS Stylesheet-->
+    <link rel="stylesheet" href="stylesheet.css">
+
+</head>
+
+<body>
+
+   <!--Navbar-->
+   <nav class="navbar navbar-expand-lg navbar-light">
+    <!--Link Bee Logo to Landing Page-->
+    <a href="landing.html">
+        <img src="images/bee.png" alt="bee image" id="beeImg">
+        </a>
+        <!--Link Build Early Ed Title Text to Landing Page-->        
+        <a class="navbar-brand m-2" href="landing.html">Build Early Ed</a>
+    <!--Format Navbar Toggler for Pages-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    <!--End Format Navbar Toggler for Pages-->
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mt-2 mt-md-0 ml-auto">
+            <li class="nav-item">
+                <!--Link Home in Navbar to Home Page-->
+                <a class="nav-link" href="home.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <!--Link Enroll in Navbar to Enroll Page-->
+                <a class="nav-link" href="enroll.html">Enroll</a>
+            </li>
+            <li class="nav-item">
+                <!--Link Build in Navbar to Build Page-->
+                <a class="nav-link" href="build.html">Build</a>
+            </li>
+            <li class="nav-item">
+                <!--Link Earn in Navbar to Earn Page-->
+                <a class="nav-link" href="earn.html">Earn</a>
+            </li>
+            <li class="nav-item">
+                <!--Link Map in Navbar to Map Page-->
+                <a class="nav-link" href="mapPage.html">Map</a>
+            </li>
+            <li class="nav-item">
+                <!--Link About in Navbar to About Page-->
+                <a class="nav-link" href="about.html">About</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<!--End Navbar-->
+
+    <!--Enroll Page Text-->
+    <section>
+        <div class="container p-5">
+            <H3>Head Start Enrollment Eligibility</H3>
+            <p>The Department of Health and Human Services Poverty Guidelines are used to determine eligibility for Head
+                Start programs. If you are currently pregnant or have children from birth to age 5, check the
+                requirements
+                below to see if your family is eligible.
+            </p>
+        </div>
+    </section>
+     <!--End Enroll Page Text-->
+
+     <!--Enroll Page Cards-->
+    <section>
+        <div class="container">
+            <div class="row justify-content-center">
+                <!--Formatting Blue Child's Age Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="blue">
+                    <div class="row justify-content-center">
+                        <!--Insert Blue Child's Age Card Icon-->
+                        <i class="fas fa-child" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Blue Child's Age Card Text-->
+                    <h5 class="card-title row justify-content-center">
+                        Child's Age
+                    </h5>
+                    <p class="card-text">
+                        Head Start serves
+                        children ages 0-5.
+                        Prenatal services
+                        are also provided.</p>
+                </div>
+                <!--End Blue Child's Age Card-->
+
+                <!--Formatting Purple Household Income Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="purple">
+                    <div class="row justify-content-center">
+                        <!--Insert Purple Household Income Card Icon-->
+                        <i class="fas fa-money-bill-wave" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Purple Household Income Card Text-->
+                    <h5 class="card-title row justify-content-center">Household Income</h5>
+                    <p>Head Start serves
+                        families with
+                        household incomes
+                        at or below the
+                        federal poverty line.
+                    </p>
+                </div>
+                <!--End Purple Household Income Card-->
+ 
+                <!--Formatting Yellow Federal Benefits Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="yellow">
+                    <div class="row justify-content-center">
+                        <!--Insert Yellow Federal Benefits Card Icon-->
+                        <i class="fas fa-hands-helping" style="font-size: 10rem;"></i>
+                    </div>
+                    <!--Insert Yellow Federal Benefits Card Text-->
+                    <h5 class="card-title row justify-content-center">Federal Benefits</h5>
+                    <p>Beneficiaries of
+                        Temporary Assistance
+                        for Needy Families or
+                        Social Security Income
+                        are eligible.
+                    </p>
+                </div>
+                <!--End Yellow Federal Benefits Card-->
+
+                <!--Formatting Pink Household Status Card-->
+                <div class="card col-md-10 col-lg-5 rounded-0 text-white p-5 m-3" id="pink">
+                    <div class="row justify-content-center">
+                        <!--Insert Pink Household Status Card Icon-->
+                        <i class="fas fa-home" id="house" style="font-size: 10rem;"></i>
+                        </div>
+                    <!--Insert Pink Household Status Card Text-->
+                    <h5 class="card-title row justify-content-center">Household Status</h5>
+                    <p>If your family is
+                        experiencing
+                        homelessness or
+                        providing foster care,
+                        then your child is
+                        eligible to enroll.
+                    </p>
+                </div>
+             <!--End Pink Household Status Card-->   
+            </div>
+        </div>
+    </section>
+    <!--End Enroll Page Cards-->
+
+    <!--Head Start Center Locator-->
+    <div class="row justify-content-center">
+        <iframe frameborder="0" height="235" scrolling="no" src="https://eclkc.ohs.acf.hhs.gov/center-locator/embedded" title="Head Start Locator" width="335">Your browser does not support iframes. Please, copy and paste the following link: <a href="https://eclkc.ohs.acf.hhs.gov/center-locator/embedded">https://eclkc.ohs.acf.hhs.gov/center-locator/embedded</a></iframe>
+    </div>
+    <!--End Head Start Center Locator-->
+
+    <!--Footer-->
+    <footer class="footer">
+        <!--Format Footer-->
+        <div class="container d-flex flex-wrap align-items-center justify-content-center">
+            <span class="text-white">
+                <!--Insert Footer Icons and Text + Link Icons and Text to Appropriate Pages-->
+                <a href="home.html"> Home</a> | <i class="far fa-envelope"></i> buildearlyed@gmail.com | <a href="https://www.facebook.com/NMBuildEarlyEd/" class="fab fa-facebook"></a> <a href="https://twitter.com/buildearlyed" class="fab fa-twitter"></a> <a href="https://www.instagram.com/buildearlyed/" class="fab fa-instagram"></a> | ©Copyright 2020 Build
+                Early Ed | <a href="privacy.html"> Privacy </a></span>
+        </div>
+    </footer>
+    <!--End Footer-->
+
+
+
+
+    <!-- jQuery and JS bundle w/ Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+    <!--fontawesome cdn-->
+    <script src="https://kit.fontawesome.com/9e7b3151e7.js" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
